@@ -1,5 +1,5 @@
 """
-ASGI config for sampleSiteDel project.
+ASGI config for sampleSite project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sampleSiteDel.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sampleSite.settings')
 
 application = get_asgi_application()
